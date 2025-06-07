@@ -46,7 +46,7 @@ export default function Brands() {
               className="group relative overflow-hidden rounded-2xl bg-gray-800 hover:scale-105 transition-all duration-300"
             >
               <div
-                className={`relative overflow-hidden flex items-center justify-center h-full ${brands.bg}`}
+                className={`relative overflow-hidden flex items-center justify-center h-[200px] sm:h-[300px] ${brands.bg}`}
               >
                 <img
                   src={brands.image}
