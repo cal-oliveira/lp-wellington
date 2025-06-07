@@ -17,10 +17,9 @@ const Trabalhos = () => {
   const trabalhos = [
     {
       id: 1,
-      titulo: "Apresentação - Vinhos",
+      titulo: "Vinhos",
       categoria: "Restaurante",
-      descricao:
-        "Vídeo promocional para startup de tecnologia, focando na inovação e modernidade da empresa.",
+      descricao: "Vídeo promocional para restaurante fino no centro de Belém",
       thumbnail:
         "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=800&h=600",
       video: "https://archive.org/download/adega/vinhos.mp4",
@@ -28,9 +27,9 @@ const Trabalhos = () => {
     },
     {
       id: 2,
-      titulo: "Apresentação - Adega",
+      titulo: "Apresentação",
       categoria: "Adega",
-      descricao: "Descricao qualquer",
+      descricao: "Adegaria no centro de Belém",
       thumbnail:
         "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&h=600",
       video: "https://archive.org/download/adega/adega.mp4",
@@ -38,7 +37,7 @@ const Trabalhos = () => {
     },
     {
       id: 3,
-      titulo: "Apresentação - Making Off",
+      titulo: "Backstage",
       categoria: "Making Off",
       descricao: "Basidores de produção para o restaurante Coco Bambu",
       thumbnail:
