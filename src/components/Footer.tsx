@@ -148,7 +148,7 @@ export default function Footer() {
         <div className="border-t border-gray-950 mt-8 pt-8 flex flex-col md:flex-row justify-center items-center">
           <p className="text-gray-300 text-sm">
             <a href="https://www.mlpage.com.br" target="_blank">
-              Developed by Calebe Oliveira
+              <span className="text-gray-700">Developed by</span> mlpage.com.br
             </a>
           </p>
         </div>
