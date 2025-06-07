@@ -35,7 +35,7 @@ export default function Brands() {
             </span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Clietes que confiam em cada entrega.
+            Clientes que confiam em cada entrega.
           </p>
         </div>
 

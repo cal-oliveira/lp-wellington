@@ -1,6 +1,6 @@
 import { Play, Clock, Eye } from "lucide-react";
 
-const Reels = () => {
+const Works = () => {
   const reels = [
     {
       id: 1,
@@ -133,4 +133,4 @@ const Reels = () => {
   );
 };
 
-export default Reels;
+export default Works;

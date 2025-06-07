@@ -26,10 +26,10 @@ const Header = () => {
               Início
             </button>
             <button
-              onClick={() => scrollToSection("trabalhos")}
+              onClick={() => scrollToSection("brands")}
               className="text-gray-300 hover:text-orange-400 transition-colors"
             >
-              Trabalhos
+              Brands
             </button>
             <button
               onClick={() => scrollToSection("reels")}

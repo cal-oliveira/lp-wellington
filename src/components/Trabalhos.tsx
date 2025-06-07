@@ -1,7 +1,7 @@
-import { ExternalLink, Play } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { useRef } from "react";
 
-const Trabalhos = () => {
+export default function Reels() {
   const videoRef = useRef(null);
 
   const handleUnmute = () => {
@@ -50,7 +50,7 @@ const Trabalhos = () => {
 
   return (
     <section
-      id="trabalhos"
+      id="reels"
       className="py-20 bg-gradient-to-b from-black to-gray-900"
     >
       <div className="container mx-auto px-6">
@@ -138,6 +138,4 @@ const Trabalhos = () => {
       </div>
     </section>
   );
-};
-
-export default Trabalhos;
+}

@@ -1,21 +1,17 @@
 import Header from "../components/Header";
-import Hero from "../components/Hero";
-import Trabalhos from "../components/Trabalhos";
-import Reels from "../components/Reels";
-import Depoimentos from "../components/Depoimentos";
 import CTA from "../components/CTA";
 import Footer from "../components/Footer";
 import Brands from "@/components/Brands";
+import Reels from "@/components/Trabalhos";
+import Hero from "@/components/Hero";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-black">
       <Header />
       <Hero />
-      <Trabalhos />
+      <Reels />
       <Brands />
-      {/* <Reels /> */}
-      {/* <Depoimentos /> */}
       <CTA />
       <Footer />
     </div>

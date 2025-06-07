@@ -1,6 +1,6 @@
 import { Play, Star } from "lucide-react";
 
-const Hero = () => {
+export default function Hero() {
   const handleWhatsApp = () => {
     const phoneNumber = "5511999999999"; // Replace with actual number
     const message =
@@ -80,7 +80,7 @@ const Hero = () => {
             <button
               onClick={() =>
                 document
-                  .getElementById("trabalhos")
+                  .getElementById("reels")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
               className="border border-gray-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-800 transition-all hover:scale-105 flex items-center justify-center gap-2"
@@ -93,6 +93,4 @@ const Hero = () => {
       </div>
     </section>
   );
-};
-
-export default Hero;
+}
