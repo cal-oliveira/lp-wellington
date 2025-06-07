@@ -112,20 +112,24 @@ export default function Reels() {
                   >
                     {/* <ExternalLink className="w-4 h-4" /> */}
                     {somAtivo === index ? (
-                      <div className="bg-orange-400 size-7  rounded-md flex items-center justify-center cursor-pointer">
-                        <img
-                          className="size-5"
-                          src="disable.png"
-                          alt="desatiar som"
-                        />
+                      <div className="bg-orange-500 rounded-md p-0 outline-offset-4 relative top-[4px] cursor-pointer">
+                        <div className="bg-orange-400 size-7 shadow-inner rounded-md flex items-center justify-center cursor-pointer active:translate-y-[2px]">
+                          <img
+                            className="size-5"
+                            src="disable.png"
+                            alt="ativar som"
+                          />
+                        </div>
                       </div>
                     ) : (
-                      <div className="bg-orange-400 size-7  rounded-md flex items-center justify-center cursor-pointer">
-                        <img
-                          className="size-5"
-                          src="enable.png"
-                          alt="ativar som"
-                        />
+                      <div className="bg-orange-500 rounded-md p-0 outline-offset-4 relative top-[4px] cursor-pointer">
+                        <div className="bg-orange-400 size-7 translate-y-[-2px] rounded-md flex items-center justify-center cursor-pointer active:translate-y-[2px]">
+                          <img
+                            className="size-5"
+                            src="enable.png"
+                            alt="ativar som"
+                          />
+                        </div>
                       </div>
                     )}
                   </button>
