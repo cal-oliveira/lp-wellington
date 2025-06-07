@@ -1,22 +1,26 @@
 import { ExternalLink } from "lucide-react";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 
 export default function Reels() {
   const videoRefs = useRef<HTMLVideoElement[]>([]);
+  const [somAtivo, setSomAtivo] = useState<number | null>(null); // guarda o índice do vídeo com som
 
   const handleToggleMute = (index: number) => {
     videoRefs.current.forEach((video, i) => {
       if (!video) return;
 
       if (i === index) {
-        const isMuted = video.muted;
-        video.muted = !isMuted;
-        video.volume = isMuted ? 1 : 0;
+        const isCurrentlyMuted = video.muted;
+        video.muted = !isCurrentlyMuted;
+        video.volume = isCurrentlyMuted ? 1 : 0;
 
-        if (!video.paused) return;
-        video.play().catch((e) => {
-          console.warn("Falha ao reproduzir o vídeo:", e);
-        });
+        if (!video.paused) {
+          video
+            .play()
+            .catch((e) => console.warn("Falha ao reproduzir o vídeo:", e));
+        }
+
+        setSomAtivo(!isCurrentlyMuted ? null : index);
       } else {
         video.muted = true;
       }
@@ -106,7 +110,8 @@ export default function Reels() {
                     onClick={() => handleToggleMute(index)}
                     className="text-orange-400 hover:text-orange-300 transition-colors flex items-center gap-2 text-sm font-semibold"
                   >
-                    Clique para ativar/desativar som
+                    <ExternalLink className="w-4 h-4" />
+                    {somAtivo === index ? "Desativar som" : "Ativar som"}
                   </button>
                 </div>
               </div>
