@@ -32,7 +32,7 @@ export default function Reels() {
       id: 1,
       titulo: "Vinhos",
       categoria: "Restaurante",
-      descricao: "Vídeo promocional para restaurante fino no centro de Belém",
+      descricao: "Vídeo para restaurante fino no centro de Belém",
       video: "https://archive.org/download/adega/vinhos.mp4",
       duracao: "2:30",
     },
@@ -110,8 +110,24 @@ export default function Reels() {
                     onClick={() => handleToggleMute(index)}
                     className="text-orange-400 hover:text-orange-300 transition-colors flex items-center gap-2 text-sm font-semibold"
                   >
-                    <ExternalLink className="w-4 h-4" />
-                    {somAtivo === index ? "Desativar som" : "Ativar som"}
+                    {/* <ExternalLink className="w-4 h-4" /> */}
+                    {somAtivo === index ? (
+                      <div className="bg-orange-400 size-7  rounded-md flex items-center justify-center cursor-pointer">
+                        <img
+                          className="size-5"
+                          src="disable.png"
+                          alt="desatiar som"
+                        />
+                      </div>
+                    ) : (
+                      <div className="bg-orange-400 size-7  rounded-md flex items-center justify-center cursor-pointer">
+                        <img
+                          className="size-5"
+                          src="enable.png"
+                          alt="ativar som"
+                        />
+                      </div>
+                    )}
                   </button>
                 </div>
               </div>
