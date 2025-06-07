@@ -1,6 +1,19 @@
 import { ExternalLink, Play } from "lucide-react";
+import { useRef } from "react";
 
 const Trabalhos = () => {
+  const videoRef = useRef(null);
+
+  const handleUnmute = () => {
+    const video = videoRef.current;
+    if (video) {
+      video.muted = false;
+      video.volume = 1;
+      video.play().catch((e) => {
+        console.warn("Falha ao reproduzir o vídeo:", e);
+      });
+    }
+  };
   const trabalhos = [
     {
       id: 1,
@@ -73,23 +86,26 @@ const Trabalhos = () => {
                   autoPlay
                   muted
                   loop
+                  playsInline
+                  ref={videoRef}
+                  onClick={handleUnmute}
                 ></video>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
 
                 {/* Play button overlay */}
-                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                {/* <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center shadow-lg">
                     <Play
                       className="w-6 h-6 text-black ml-1"
                       fill="currentColor"
                     />
                   </div>
-                </div>
+                </div> */}
 
                 {/* Duration badge */}
-                <div className="absolute top-4 right-4 bg-black/70 backdrop-blur-sm px-3 py-1 rounded-full text-sm text-white">
+                {/* <div className="absolute top-4 right-4 bg-black/70 backdrop-blur-sm px-3 py-1 rounded-full text-sm text-white">
                   {trabalho.duracao}
-                </div>
+                </div> */}
 
                 {/* Category badge */}
                 <div className="absolute top-4 left-4 bg-orange-500/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm text-black font-semibold">
