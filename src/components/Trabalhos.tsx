@@ -38,10 +38,9 @@ const Trabalhos = () => {
     },
     {
       id: 3,
-      titulo: "Videoclipe Artístico",
+      titulo: "Apresentação - Making Off",
       categoria: "Making Off",
-      descricao:
-        "Produção visual para artista independente, com conceito surreal e cinematografia autoral.",
+      descricao: "Basidores de produção para o restaurante Coco Bambu",
       thumbnail:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=600",
       video: "https://archive.org/download/adega/cocobambu.mp4",
