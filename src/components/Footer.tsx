@@ -144,6 +144,14 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        {/* Sub Bottom bar */}
+        <div className="border-t border-gray-950 mt-8 pt-8 flex flex-col md:flex-row justify-center items-center">
+          <p className="text-gray-300">
+            <a href="https://www.mlpage.com.br" target="_blank">
+              Developed by Calebe Oliveira
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );
