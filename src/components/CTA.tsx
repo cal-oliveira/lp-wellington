@@ -1,6 +1,6 @@
 import { MessageCircle, Phone, Mail, Clock } from "lucide-react";
 
-const CTA = () => {
+export default function CTA() {
   const handleWhatsApp = () => {
     const phoneNumber = "5591982560535"; // Replace with actual number
     const message =
@@ -116,6 +116,4 @@ const CTA = () => {
       </div>
     </section>
   );
-};
-
-export default CTA;
+}

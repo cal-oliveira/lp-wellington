@@ -7,7 +7,7 @@ import {
   Phone,
 } from "lucide-react";
 
-const Footer = () => {
+export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const scrollToSection = (sectionId: string) => {
@@ -155,6 +155,4 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
-
-export default Footer;
+}
