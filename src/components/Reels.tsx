@@ -106,7 +106,6 @@ export default function Reels() {
                     onClick={() => handleToggleMute(index)}
                     className="text-orange-400 hover:text-orange-300 transition-colors flex items-center gap-2 text-sm font-semibold"
                   >
-                    <ExternalLink className="w-4 h-4" />
                     Clique para ativar/desativar som
                   </button>
                 </div>
