@@ -30,10 +30,10 @@ export default function Reels() {
   const trabalhos = [
     {
       id: 1,
-      titulo: "Vinhos",
-      categoria: "Restaurante",
-      descricao: "Vídeo para restaurante fino no centro de Belém",
-      video: "https://archive.org/download/adega/vinhos.mp4",
+      titulo: "Video promocional",
+      categoria: "Supermercado",
+      descricao: "Promoções e benefícios do supermercado",
+      video: "https://archive.org/download/promob/promo%2Bb.mp4",
       duracao: "2:30",
     },
     {
