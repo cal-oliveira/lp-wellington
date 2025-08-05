@@ -41,7 +41,7 @@ export default function Reels() {
       titulo: "Apresentação",
       categoria: "Adega",
       descricao: "Adegaria no centro de Belém",
-      video: "https://archive.org/download/adega/adega.mp4",
+      video: "https://archive.org/download/adega-maio-02/ADEGA%20MAIO%2002.mp4",
       duracao: "15:00",
     },
     {
@@ -49,7 +49,8 @@ export default function Reels() {
       titulo: "Backstage",
       categoria: "Making Off",
       descricao: "Bastidores de produção para o restaurante Coco Bambu",
-      video: "https://archive.org/download/adega/cocobambu.mp4",
+      video:
+        "https://ia601005.us.archive.org/13/items/img-0556_202508/IMG_0556.mp4",
       duracao: "4:15",
     },
   ];
