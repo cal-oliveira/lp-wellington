@@ -21,34 +21,32 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="text-3xl font-bold bg-gradient-to-r from-orange-400 to-yellow-400 bg-clip-text text-transparent mb-4">
-              Lucas Oliver
+              Shotblakz
             </div>
             <p className="text-gray-400 mb-6 max-w-md leading-relaxed">
-              Filmmaker freelancer especializado em transformar ideias em
-              conteúdo visual impactante. Qualidade cinematográfica profissional
-              para projetos de todos os tamanhos.
+              Trap - Show - Produção musical
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.instagram.com/shotblakz/"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition-colors"
               >
                 <Instagram className="w-5 h-5 text-white" />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/channel/UCt1CA8AuK8SCZiApQa2YaFg"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-500 transition-colors"
               >
                 <Youtube className="w-5 h-5 text-white" />
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-500 transition-colors"
               >
                 <Linkedin className="w-5 h-5 text-white" />
-              </a>
+              </a> */}
               <a
-                href="mailto:contato@filmmaker.com"
+                href="mailto:shotblakzpro@gmail.com"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-green-500 transition-colors"
               >
                 <Mail className="w-5 h-5 text-white" />
@@ -65,7 +63,7 @@ export default function Footer() {
                   onClick={() => scrollToSection("home")}
                   className="text-gray-400 hover:text-orange-400 transition-colors"
                 >
-                  Início
+                  Home
                 </button>
               </li>
               <li>
@@ -73,7 +71,7 @@ export default function Footer() {
                   onClick={() => scrollToSection("reels")}
                   className="text-gray-400 hover:text-orange-400 transition-colors"
                 >
-                  Brands
+                  A Quebrada no Mapa
                 </button>
               </li>
               <li>
@@ -81,7 +79,7 @@ export default function Footer() {
                   onClick={() => scrollToSection("reels")}
                   className="text-gray-400 hover:text-orange-400 transition-colors"
                 >
-                  Reels
+                  Discografia
                 </button>
               </li>
               <li>
@@ -89,7 +87,7 @@ export default function Footer() {
                   onClick={() => scrollToSection("depoimentos")}
                   className="text-gray-400 hover:text-orange-400 transition-colors"
                 >
-                  Depoimentos
+                  Show & Estrutura
                 </button>
               </li>
               <li>
@@ -109,18 +107,18 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-4 h-4 text-orange-400" />
-                <span>(91) 98256-0535</span>
+                <span>(91) 94002-8922</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-4 h-4 text-orange-400" />
-                <span>lucas@gmail.com</span>
+                <span>shotblakzpro@gmail.com</span>
               </li>
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-4 h-4 text-orange-400 mt-1" />
                 <span>
-                  Belém - PA
+                  Florianópolis - SC
                   <br />
-                  Atendimento em todo Brasil
+                  Fazemos show em todo Brasil
                 </span>
               </li>
             </ul>
@@ -130,7 +128,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            © {currentYear} Lucas Oliver. Todos os direitos reservados.
+            © {currentYear} N-Teen. Todos os direitos reservados.
           </p>
           <div className="flex space-x-6 text-sm text-gray-500">
             <a href="#" className="hover:text-orange-400 transition-colors">
@@ -148,7 +146,7 @@ export default function Footer() {
         <div className="border-t border-gray-950 mt-8 pt-8 flex flex-col md:flex-row justify-center items-center">
           <p className="text-gray-300 text-sm">
             <a href="https://www.mlpage.com.br" target="_blank">
-              <span className="text-gray-700">Developed by</span> mlpage.com.br
+              <span className="text-gray-700">Developed by</span> Calebe Oliveira
             </a>
           </p>
         </div>
