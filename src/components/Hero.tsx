@@ -16,8 +16,17 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex items-center justify-center relative overflow-hidden bg-black"
     >
-      {/* Background with gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900"></div>
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/clip.mp4" type="video/mp4"/>
+      </video>
+
+      <div className="absolute inset-0 bg-black/80"></div>
 
       {/* Animated background elements */}
       <div className="absolute inset-0">
@@ -28,12 +37,12 @@ export default function Hero() {
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-full px-4 py-2 mb-8">
+          {/* <div className="inline-flex items-center gap-2 bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-full px-4 py-2 mb-8">
             <Star className="w-4 h-4 text-yellow-400 fill-current" />
             <span className="text-gray-300 text-sm">
               Filmmaker Profissional
             </span>
-          </div>
+          </div> */}
 
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
@@ -86,7 +95,7 @@ export default function Hero() {
               className="border border-gray-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-800 transition-all hover:scale-105 flex items-center justify-center gap-2"
             >
               <Play className="w-5 h-5" />
-              Ver Trabalhos
+              Conhecer a História
             </button>
           </div>
         </div>
