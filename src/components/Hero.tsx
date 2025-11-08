@@ -37,35 +37,35 @@ export default function Hero() {
 
           {/* Main heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-              Transformo suas
-            </span>
-            <br />
             <span className="bg-gradient-to-r from-orange-400 via-yellow-400 to-orange-500 bg-clip-text text-transparent">
-              ideias em cinema
+              Shotblakz
             </span>
           </h1>
+          
+          <h2 className="text-4xl font-semibold leading-tight">
+            <span className="bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+              O Trap que vem de Floripa para o Brasil
+            </span>
+          </h2>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Sou um filmmaker freelancer especializado em criar conteúdo visual
-            impactante. De comerciais a documentários, trago sua visão à vida
-            com qualidade cinematográfica.
+          <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed mt-2">
+            Desde 2018 representando a força do Trap nacional com autenticidade e propósito.
           </p>
 
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-8 mb-12">
             <div className="text-center">
-              <div className="text-3xl font-bold text-orange-400">100+</div>
-              <div className="text-gray-400">Projetos</div>
+              <div className="text-3xl font-bold text-orange-400">+6</div>
+              <div className="text-gray-400">Estrada</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-orange-400">50+</div>
-              <div className="text-gray-400">Clientes</div>
+              <div className="text-3xl font-bold text-orange-400">+10</div>
+              <div className="text-gray-400">Produções</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-orange-400">4</div>
-              <div className="text-gray-400">Anos</div>
+              <div className="text-3xl font-bold text-orange-400">1</div>
+              <div className="text-gray-400">Propósito</div>
             </div>
           </div>
 
