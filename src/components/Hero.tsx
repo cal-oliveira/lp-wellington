@@ -89,7 +89,7 @@ export default function Hero() {
             <button
               onClick={() =>
                 document
-                  .getElementById("reels")
+                  .getElementById("journey")
                   ?.scrollIntoView({ behavior: "smooth" })
               }
               className="border border-gray-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-800 transition-all hover:scale-105 flex items-center justify-center gap-2"

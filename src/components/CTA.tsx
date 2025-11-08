@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function CTA() {
   const handleWhatsApp = () => {
-    const phoneNumber = "5591982560535"; // Replace with actual number
+    const phoneNumber = "55999684849"; // Replace with actual number
     const message =
       "Olá! Gostaria de conversar sobre um projeto de filmmaking. Podemos agendar uma conversa?";
     window.open(
@@ -20,7 +20,7 @@ export default function CTA() {
   };
 
   const handlePhone = () => {
-    window.open("tel:+5591999887766", "_blank");
+    window.open("tel:+5555999684849", "_blank");
   };
 
   return (
