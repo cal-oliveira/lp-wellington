@@ -24,7 +24,7 @@ export default function StoryBlock({ title, content, imageSrc, imageAlt, reverse
                     alt={imageAlt}
                     className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 transition-opacity duration-300" />
                 </div>
             </div>
         </div>
