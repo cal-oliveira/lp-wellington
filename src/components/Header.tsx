@@ -14,7 +14,7 @@ export default function Header() {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-orange-400 to-yellow-400 bg-clip-text text-transparent">
-            Lucas Oliver
+            Shotblakz
           </div>
 
           {/* Desktop Navigation */}
@@ -29,19 +29,19 @@ export default function Header() {
               onClick={() => scrollToSection("brands")}
               className="text-gray-300 hover:text-orange-400 transition-colors"
             >
-              Brands
+              A Quebrada no Mapa
             </button>
             <button
               onClick={() => scrollToSection("reels")}
               className="text-gray-300 hover:text-orange-400 transition-colors"
             >
-              Reels
+              Discografia
             </button>
             <button
               onClick={() => scrollToSection("depoimentos")}
               className="text-gray-300 hover:text-orange-400 transition-colors"
             >
-              Depoimentos
+              Show & Estrutura
             </button>
             <button
               onClick={() => scrollToSection("contato")}
@@ -74,19 +74,19 @@ export default function Header() {
                 onClick={() => scrollToSection("trabalhos")}
                 className="text-gray-300 hover:text-orange-400 transition-colors text-left"
               >
-                Trabalhos
+                A Quebrada no Mapa
               </button>
               <button
                 onClick={() => scrollToSection("reels")}
                 className="text-gray-300 hover:text-orange-400 transition-colors text-left"
               >
-                Reels
+                Discografia
               </button>
               <button
                 onClick={() => scrollToSection("depoimentos")}
                 className="text-gray-300 hover:text-orange-400 transition-colors text-left"
               >
-                Depoimentos
+                Show & Estrutura
               </button>
               <button
                 onClick={() => scrollToSection("contato")}
