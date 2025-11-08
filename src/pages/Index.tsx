@@ -5,13 +5,14 @@ import Brands from "@/components/Brands";
 
 import Hero from "@/components/Hero";
 import Reels from "@/components/Reels";
+import Trajectory from "@/components/Trajectory";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-black">
       <Header />
       <Hero />
-      <Reels />
+      <Trajectory />
       <Brands />
       <CTA />
       <Footer />
