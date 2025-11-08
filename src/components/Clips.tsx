@@ -3,7 +3,7 @@ import img1 from "../../public/img1.jpg"
 
 export default function Clips(){
     return(
-        <section id="clipes" className="relative py-20 lg:py-32 bg-black">
+        <section id="clips" className="relative py-20 lg:py-32 bg-black">
         <div className="container mx-auto px-4 lg:px-8 relative z-10">
           {/* Header */}
           <div className="text-center mb-16 lg:mb-20 animate-fade-in-up">

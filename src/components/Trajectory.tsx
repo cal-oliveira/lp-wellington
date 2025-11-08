@@ -7,7 +7,7 @@ export default function Trajectory(){
     return(
         <main className="min-h-screen bg-black">
         {/* Nossa Jornada Section */}
-        <section id="nossa-jornada" className="relative py-20 lg:py-32 overflow-hidden">
+        <section id="journey" className="relative py-20 lg:py-32 overflow-hidden">
             {/* <SoundWave /> */}
             
             <div className="container mx-auto px-4 lg:px-8 relative z-10">

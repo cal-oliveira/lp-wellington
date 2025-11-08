@@ -23,19 +23,19 @@ export default function Header() {
               onClick={() => scrollToSection("home")}
               className="text-gray-300 hover:text-orange-400 transition-colors"
             >
-              Início
+              Home
             </button>
             <button
-              onClick={() => scrollToSection("brands")}
+              onClick={() => scrollToSection("journey")}
               className="text-gray-300 hover:text-orange-400 transition-colors"
             >
               A Quebrada no Mapa
             </button>
             <button
-              onClick={() => scrollToSection("reels")}
+              onClick={() => scrollToSection("clips")}
               className="text-gray-300 hover:text-orange-400 transition-colors"
             >
-              Discografia
+              Clips
             </button>
             <button
               onClick={() => scrollToSection("depoimentos")}
@@ -68,19 +68,19 @@ export default function Header() {
                 onClick={() => scrollToSection("home")}
                 className="text-gray-300 hover:text-orange-400 transition-colors text-left"
               >
-                Início
+                Home
               </button>
               <button
-                onClick={() => scrollToSection("trabalhos")}
+                onClick={() => scrollToSection("journey")}
                 className="text-gray-300 hover:text-orange-400 transition-colors text-left"
               >
                 A Quebrada no Mapa
               </button>
               <button
-                onClick={() => scrollToSection("reels")}
+                onClick={() => scrollToSection("clips")}
                 className="text-gray-300 hover:text-orange-400 transition-colors text-left"
               >
-                Discografia
+                Clips
               </button>
               <button
                 onClick={() => scrollToSection("depoimentos")}
